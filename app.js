@@ -31,7 +31,7 @@ function sortearNombreAleatorio(){
     let cantidadNombres = listaNombres.length
     console.log(cantidadNombres)
 
-    let numeroAleatorio = Math.floor(Math.random()*cantidadNombres)+1;
+    let numeroAleatorio = Math.floor(Math.random()*cantidadNombres);
     console.log(numeroAleatorio)
 
     let transformarNumeroANombre = listaNombres[parseInt(numeroAleatorio)]
